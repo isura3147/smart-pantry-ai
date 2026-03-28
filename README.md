@@ -1,17 +1,7 @@
-# smart_pantry
+SmartPantry AI 🛒🤖
 
-A new Flutter project.
+The "Zero-Type" Food Waste Solver
 
-## Getting Started
+SmartPantry AI is a cross-platform mobile application designed to combat household food waste and reduce grocery expenses. By leveraging advanced AI-Vision APIs, the app eliminates the tedious manual data entry found in traditional inventory apps. Users simply snap a photo of their grocery receipt or open fridge, and the app automatically logs the items, estimates expiration dates, and suggests recipes based on what needs to be eaten first.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This project was developed as a final year Mobile Application Development group assignment.
