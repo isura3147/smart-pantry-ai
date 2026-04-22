@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'core/theme/app_theme.dart';
+import 'features/fridge_scanner/screens/fridge_scanner_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,9 @@ class MyApp extends StatelessWidget {
       title: 'Smart Pantry',
       theme: AppTheme.darkTheme,
       themeMode: ThemeMode.dark,
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      //home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const FridgeScannerPage(),
+
     );
   }
 }
@@ -23,7 +26,7 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
 
-  // This widget is the home page of your application. It is stateful, meaning
+  // This widget is the home page of your applicat/eion. It is stateful, meaning
   // that it has a State object (defined below) that contains fields that affect
   // how it looks.
 
