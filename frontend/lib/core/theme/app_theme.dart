@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-/// Neon Lab — pure dark Material 3 design system.
 class AppTheme {
   AppTheme._();
 
@@ -83,9 +82,9 @@ class AppTheme {
       surfaceContainer: _surfaceL1,
       surfaceContainerHigh: _surfaceL2,
       surfaceContainerHighest: _surfaceL2,
-      // ignore: deprecated_member_use
+
       background: _backgroundBase,
-      // ignore: deprecated_member_use
+
       onBackground: _textHigh,
     );
 
