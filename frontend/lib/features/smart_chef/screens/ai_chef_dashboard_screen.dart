@@ -5,7 +5,6 @@ import '../models/mock_recipes.dart';
 import '../models/recipe.dart';
 import '../widgets/category_chip.dart';
 import '../widgets/chef_app_bar.dart';
-import '../widgets/chef_bottom_nav.dart';
 import '../widgets/expiring_item_card.dart';
 import '../widgets/generate_recipes_button.dart';
 import '../widgets/recipe_suggestion_card.dart';
@@ -27,8 +26,6 @@ class _AIChefDashboardScreenState extends State<AIChefDashboardScreen> {
   ];
 
   int _selectedCategoryIndex = 0;
-  // shell will own the nav later, this is temp
-  int _bottomNavIndex = 2;
 
   void _openRecipe(Recipe recipe) {
     Navigator.of(context).push(
@@ -117,11 +114,6 @@ class _AIChefDashboardScreenState extends State<AIChefDashboardScreen> {
             ),
           ],
         ),
-      ),
-      // drop when shell provides the bottom nav
-      bottomNavigationBar: ChefBottomNav(
-        currentIndex: _bottomNavIndex,
-        onTap: (i) => setState(() => _bottomNavIndex = i),
       ),
     );
   }

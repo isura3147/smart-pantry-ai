@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../widgets/detected_item.dart';
-import '../widgets/scanner_bottom_nav.dart';
 import 'scanner_camera_screen.dart';
 import 'scanner_mode_selection_screen.dart';
 
@@ -132,10 +131,6 @@ class _FridgeScannerPageState extends State<FridgeScannerPage> {
       extendBody: true,
       backgroundColor: Theme.of(context).colorScheme.surfaceContainerLowest,
       body: body,
-      bottomNavigationBar: ScannerBottomNav(
-        currentIndex: _navIndex,
-        onTap: (index) => setState(() => _navIndex = index),
-      ),
     );
   }
 }
