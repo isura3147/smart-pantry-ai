@@ -80,9 +80,14 @@ class AppTheme {
       onSurfaceVariant: _textMedium,
       outline: _border,
       outlineVariant: _border,
+      surfaceContainerLowest: _backgroundBase,
+      surfaceContainerLow: _surfaceL1,
+      surfaceContainer: _surfaceL1,
+      surfaceContainerHigh: _surfaceL2,
+      surfaceContainerHighest: _surfaceL2,
+
       // ignore: deprecated_member_use
-      background: neutral,
-      // ignore: deprecated_member_use
+      background: _backgroundBase,
       onBackground: _textHigh,
     );
 
